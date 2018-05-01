@@ -6,6 +6,11 @@ var makeBlinkyDancer = function(top, left, timeBetweenSteps) {
   this.setPosition(top, left);
   this.step(timeBetweenSteps);
 
+  //add our eventListners when building the node
+  $('.blinkyDancer').on('click', function(event){
+    $('.blinkyDancer').css({'border': '20px solid green'})
+  });
+
 };
 makeBlinkyDancer.prototype = Object.create(makeDancer.prototype);
 makeBlinkyDancer.prototype.constructor = makeBlinkyDancer;

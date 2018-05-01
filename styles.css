@@ -30,3 +30,15 @@ body, a:link, a:visited, a:active{
   border-radius:10px;
   position:absolute;
 }
+
+.funkyDancer{
+  border:10px solid yellow;
+  border-radius:10px;
+  position:absolute;
+}
+
+.ninjaDancer{
+  border:10px solid blue;
+  border-radius:10px;
+  position:absolute;
+}
